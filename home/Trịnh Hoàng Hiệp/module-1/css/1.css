@@ -120,6 +120,9 @@
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
+.search input[type=text]:focus {
+  width: 100%;
+}
 #menu-icon div {
   width: 35px;
   height: 5px;

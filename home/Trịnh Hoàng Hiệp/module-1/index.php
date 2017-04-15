@@ -18,41 +18,9 @@
 	<title>Light Home-Savory</title>
 </head>
 <body>
-	<!--Slide-->
-	<div class="slideshow-container">
-  		<div class="mySlides fade">
-    		<div class="numbertext">1 / 2</div>
-    		<img src="img/white-home-slide1.jpg" style="width:100%">
-    		<div class="text">Tasty and Healthy</div>
-		</div>
-		
-		<div class="mySlides fade">
-    		<div class="numbertext">2 / 2</div>
-    		<img src="img/white-home-slide2.jpg" style="width:100%">
-		</div>
-
-  		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	</div>
-
-	<br>
 	
-
-	<!--Button View our menu-->
-	<button class="btn view">VIEW OUR MENU</button>
-
-	<br>
-
-	<!--Text slide 1-->
-	<div class="tp-caption Savory-subtitle   tp-resizeme" style="z-index: 5; white-space: nowrap; font-weight: 400; color: rgba(51, 51, 51, 1.00);text-transform:uppercase;letter-spacing:3px;">taste and comfort </div>
-	<div class="text"  style="z-index: 6; white-space: nowrap; font-size: 85px; line-height: 90px; font-weight: 700; color: rgba(51, 51, 51, 1.00);font-family:Playfair Display;">Tasty and Healthy</div>
-    <div class="text" style="z-index: 7; min-width: 670px; max-width: 670px; white-space: normal; line-height: 30px; color: rgba(51, 51, 51, 1.00);">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidition ullamco laboris nisi ut aliquip ex ea commodo condorico.</div>
-
-    <!--Text slide 2-->
-
-	
-	<br>
-	<!--Dropdown menu-->
+	<div>
+		<!--Dropdown menu-->
 	<div id="dropDown-Menu">
 		<div class="dropdown">
 			 <button class="dropbtn">HOME</button>
@@ -168,18 +136,63 @@
 			 </div>
 		</div>
 	</div>
+
+
+		<!--Slide-->
+		<div class="slideshow-container">
+	  		<div class="mySlides fade">
+	    		<div class="numbertext">1 / 2</div>
+	    		<img src="img/white-home-slide1.jpg" style="width:100%">
+	    		<div class="text">Tasty and Healthy</div>
+			</div>
+			
+			<div class="mySlides fade">
+	    		<div class="numbertext">2 / 2</div>
+	    		<img src="img/white-home-slide2.jpg" style="width:100%">
+			</div>
+
+	  		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+
+
+	</div>
+	
+
+	<br>
+	
+
+	<!--Button View our menu-->
+	<button class="btn view">VIEW OUR MENU</button>
+
+	<br>
+
+	<!--Text slide 1-->
+	<div class="tp-caption Savory-subtitle   tp-resizeme" style="z-index: 5; white-space: nowrap; font-weight: 400; color: rgba(51, 51, 51, 1.00);text-transform:uppercase;letter-spacing:3px;">taste and comfort </div>
+	<div class="text"  style="z-index: 6; white-space: nowrap; font-size: 85px; line-height: 90px; font-weight: 700; color: rgba(51, 51, 51, 1.00);font-family:Playfair Display;">Tasty and Healthy</div>
+    <div class="text" style="z-index: 7; min-width: 670px; max-width: 670px; white-space: normal; line-height: 30px; color: rgba(51, 51, 51, 1.00);">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidition ullamco laboris nisi ut aliquip ex ea commodo condorico.</div>
+
+    <!--Text slide 2-->
+
+	
+	<br>
+	
 		
 
 	<br>
 
 
 	<!--Dropdown cart-->
-	<a href="#">
+		<a href="#">
           <span class="glyphicon glyphicon-shopping-cart"></span>
-        </a>
+       	</a>
 
 	<br>
 	
+	<!--Icon-->
+	<div id="icon">
+		<img src="img/meni-logo-dark.png">
+	</div>
 
 
 	

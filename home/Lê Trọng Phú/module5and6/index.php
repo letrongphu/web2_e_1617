@@ -17,7 +17,7 @@
 
 <body>
     <div class="modul5">
-        <div class="container">
+        <div class="container-fuild">
             <div class="modul50">
                 <!-- Jssor Slider Begin -->
     <script type="text/javascript" src="./js/jssor.slider.min.js"></script>
