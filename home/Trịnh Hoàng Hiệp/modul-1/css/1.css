@@ -1,15 +1,19 @@
-* {
+.module1 * {
   box-sizing: border-box;
 }
-.slideshow-container {
+.module1 .slideshow-container {
   position: relative;
   margin: auto;
 }
-.mySlides {
+.module1 .menutrong {
+  position: absolute;
+  text-align: center;
+}
+.module1 .mySlides {
   display: none;
 }
-.prev,
-.next {
+.module1 .prev,
+.module1 .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -20,10 +24,10 @@
   font-size: 60px;
   transition: 0.6s;
 }
-.next {
+.module1 .next {
   right: 0;
 }
-.text {
+.module1 .text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -32,64 +36,65 @@
   width: 100%;
   text-align: center;
 }
-.numbertext {
+.module1 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
 }
-.active,
-.dot:hover {
+.module1 .active,
+.module1 .dot:hover {
   background-color: #717171;
 }
-.fade {
+.module1 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 @-webkit-keyframes fade {
-  from {
+  .module1 from {
     opacity: .2;
   }
-  to {
+  .module1 to {
     opacity: 1;
   }
 }
 @keyframes fade {
-  from {
+  .module1 from {
     opacity: .2;
   }
-  to {
+  .module1 to {
     opacity: 1;
   }
 }
-.btn {
+.module1 .btn {
   border: none;
   color: white;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
 }
-.view {
+.module1 .view {
   background-color: #151515;
 }
-.view:hover {
+.module1 .view:hover {
   background-color: #FAFAFA;
+  color: #151515;
 }
-.dropbtn {
+.module1 .dropbtn {
   color: #151515;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
 }
-.dropdown {
+.module1 .dropdown {
   position: relative;
   display: inline-block;
 }
-.dropdown-content {
+.module1 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #151515;
@@ -97,16 +102,16 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-.dropdown-content a {
+.module1 .dropdown-content a {
   color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-.dropdown:hover .dropdown-content {
+.module1 .dropdown:hover .dropdown-content {
   display: block;
 }
-.search input[type=text] {
+.module1 .search input[type=text] {
   width: 130px;
   box-sizing: border-box;
   border: 2px solid #ccc;
@@ -120,16 +125,16 @@
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
-.search input[type=text]:focus {
+.module1 .search input[type=text]:focus {
   width: 100%;
 }
-#menu-icon div {
+.module1 #menu-icon div {
   width: 35px;
   height: 5px;
   background-color: black;
   margin: 6px 0;
 }
-#overlay {
+.module1 #overlay {
   position: fixed;
   display: none;
   width: 100%;
@@ -142,7 +147,7 @@
   z-index: 2;
   cursor: pointer;
 }
-#overlay text {
+.module1 #overlay text {
   position: absolute;
   top: 50%;
   left: 50%;
