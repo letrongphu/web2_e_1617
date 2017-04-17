@@ -1,0 +1,74 @@
+.module4 figure.effect-bubba:hover img {
+  transform: scale(1.1);
+}
+.module4 figure.effect-bubba img {
+  margin: 0 !important;
+  -webkit-transition: all .8s ease-out;
+  -moz-transition: all .8s ease-out;
+  -ms-transition: all .8s ease-out;
+  -o-transition: all .8s ease-out;
+  transition: all .8s ease-out;
+}
+.module4 figure.effect-roxy:hover img {
+  opacity: 0.7;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+.module4 img {
+  width: 50%;
+  width: 552px;
+  height: 522px;
+}
+.module4 h5 {
+  line-height: 30px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+.module4 h2 {
+  font-size: 38px;
+  line-height: 1.3em;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+}
+.module4 h4 {
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #555;
+  font-family: "Open Sans", sans-serif;
+  margin: 15px 0;
+  text-align: left;
+}
+.module4 .btn-text {
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 16px 36px 20px;
+  font-size: 11px;
+  line-height: 14px;
+  background-color: #f1f1f1;
+  border: 2px solid #f1f1f1;
+  overflow: visible;
+  transform-origin: left;
+}
+.module4 .btn-text:hover {
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 16px 36px 20px;
+  font-size: 11px;
+  line-height: 14px;
+  background-color: black;
+  color: #ccc;
+  border: 2px solid #f1f1f1;
+  overflow: visible;
+  transform: translate3d(0,0,0);
+}
