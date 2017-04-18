@@ -1,0 +1,87 @@
+.module6 * {
+  box-sizing: border-box;
+}
+.module6 .slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.module6 .menutrong {
+  position: absolute;
+  text-align: center;
+}
+.module6 .mySlides {
+  display: none;
+}
+.module6 .prev,
+.module6 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 20px;
+  color: #151515;
+  font-size: 60px;
+  transition: 0.6s;
+}
+.module6 .next {
+  right: 0;
+}
+.module6 .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.module6 .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.module6 .active,
+.module6 .dot:hover {
+  background-color: #717171;
+}
+.module6 .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  .module6 from {
+    opacity: .2;
+  }
+  .module6 to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  .module6 from {
+    opacity: .2;
+  }
+  .module6 to {
+    opacity: 1;
+  }
+}
+.module6 .btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.module6 .view {
+  background-color: #151515;
+  width: 193px;
+  height: 54px;
+}
+.module6 .view:hover {
+  background-color: #FAFAFA;
+  color: #151515;
+}
