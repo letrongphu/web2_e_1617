@@ -1,28 +1,12 @@
 .module4{
 
 /* Search box */
-.search input[type=text] {
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
 
-.search input[type=text]:focus {
-    width: 100%;
-}
 
 
 /*Overlay*/
 #overlay {
+    text-align: center;
     position: fixed;
     display: none;
     width: 100%;
@@ -36,17 +20,27 @@
     cursor: pointer;
 }
 
-#overlay text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 50px;
+#overlay p{
+    text-align: right;
+    padding: 30px;
+    font-size: 20px;
+    color:white;
+}
+
+#overlay .search span{
+    font-size:40px;
     color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
 }
 
 
+.search-icon span:hover{
+    color:#a1a1a1;
+}
+
+.search-icon span{
+    color:#999999;
+    font-size: 30px;
+}
 
 
 

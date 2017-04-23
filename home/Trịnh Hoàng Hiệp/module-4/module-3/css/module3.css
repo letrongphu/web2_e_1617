@@ -1,0 +1,29 @@
+.module3 .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.module3 .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.module3 .dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.module3 .dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #333333;
+}
+.module3 span {
+  color: #999999;
+  font-size: 30px;
+}
+.module3 span:hover {
+  color: #a1a1a1;
+}

@@ -21,19 +21,19 @@
 	<div class="module4">
 
 	<!--Overlay-->
-		<div id="overlay" onclick="off()">
-		  	<div id="text">Overlay Text</div>
+		<div id="overlay">
+			<p onclick="off()">x</p>
 			<div class="search">
-				<input type="text" name="search" placeholder="Search">
-				<span class="glyphicon glyphicon-search"></span>
+				<span>Search</span>
+				<input type="text" name="search">
+				<span class="glyphicon glyphicon-search" onclick="off()"></span>
 			</div>
 		</div>
 
 
 	<!--Search-->
-		<div class="search">
-			<input type="text" name="search" placeholder="Search" onclick="on()">
-			<span class="glyphicon glyphicon-search"></span>
+		<div class="search-icon">
+			<span class="glyphicon glyphicon-search" onclick="on()"></span>
 		</div>
 
 
