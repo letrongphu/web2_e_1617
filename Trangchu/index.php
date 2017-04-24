@@ -20,6 +20,7 @@
 </head>
 <body>
 	<div class="module1">
+		<div class="container-fuild">
 	<div>
 		<!--Dropdown menu-->
 	<div id="dropDown-Menu">
@@ -185,6 +186,9 @@
 
 	</div>
 
+
+<div class="ten">
+
 	<script>
 
 	//On or off overlay
@@ -233,91 +237,145 @@
 	</script>
 
 
-	<div class="container-fuild">
-		
-   
+ <style>
+        /* jssor slider bullet navigator skin 21 css */
+        /*
+        .jssorb21 div           (normal)
+        .jssorb21 div:hover     (normal mouseover)
+        .jssorb21 .av           (active)
+        .jssorb21 .av:hover     (active mouseover)
+        .jssorb21 .dn           (mousedown)
+        */
+        .jssorb21 {
+            position: absolute;
+            bottom: 26px;
+            left: 6px;
+        }
+       
+        .jssorb21 div { background-position: -5px -5px; }
+        .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+        .jssorb21 .av { background-position: -65px -5px; }
+        .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+    </style>
+
+    <!--#region Arrow Navigator Skin -->
+    <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-no-jquery.html -->
     <style>
-        /* jssor slider loading skin oval css */
-
-        .jssorl-oval img {
-            animation-name: jssorl-oval;
-            animation-duration: 1.2s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-
-        @keyframes jssorl-oval {
-            from {
-                transform: rotate(0deg);
-            }
-
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        /* jssor slider bullet navigator skin 05 css */
+        /* jssor slider arrow navigator skin 21 css */
         /*
-        .jssorb05 div           (normal)
-        .jssorb05 div:hover     (normal mouseover)
-        .jssorb05 .av           (active)
-        .jssorb05 .av:hover     (active mouseover)
-        .jssorb05 .dn           (mousedown)
+        .jssora21l                  (normal)
+        .jssora21r                  (normal)
+        .jssora21l:hover            (normal mouseover)
+        .jssora21r:hover            (normal mouseover)
+        .jssora21l.jssora21ldn      (mousedown)
+        .jssora21r.jssora21rdn      (mousedown)
+        .jssora21l.jssora21lds      (disabled)
+        .jssora21r.jssora21rds      (disabled)
         */
-        .jssorb05 {
-            position: absolute;
-        }
-        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-            position: absolute;
-            /* size of bullet elment */
-            width: 16px;
-            height: 16px;
-            background: url('../img/b05.png') no-repeat;
-            overflow: hidden;
-            cursor: pointer;
-        }
-        .jssorb05 div { background-position: -7px -7px; }
-        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
-        .jssorb05 .av { background-position: -67px -7px; }
-        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
-
-        /* jssor slider arrow navigator skin 22 css */
-        /*
-        .jssora22l                  (normal)
-        .jssora22r                  (normal)
-        .jssora22l:hover            (normal mouseover)
-        .jssora22r:hover            (normal mouseover)
-        .jssora22l.jssora22ldn      (mousedown)
-        .jssora22r.jssora22rdn      (mousedown)
-        .jssora22l.jssora22lds      (disabled)
-        .jssora22r.jssora22rds      (disabled)
-        */
-        .jssora22l, .jssora22r {
+        .jssora21l, .jssora21r {
+        	margin-top: 300px;
             display: block;
             position: absolute;
             /* size of arrow element */
-            width: 40px;
-            height: 58px;
+            width: 55px;
+            height: 55px;
             cursor: pointer;
-            background: url('./img/a22.png') center center no-repeat;
+            background: url(./img/a09.png) center center no-repeat;
             overflow: hidden;
         }
-        .jssora22l { background-position: -10px -31px; }
-        .jssora22r { background-position: -70px -31px; }
-        .jssora22l:hover { background-position: -130px -31px; }
-        .jssora22r:hover { background-position: -190px -31px; }
-        .jssora22l.jssora22ldn { background-position: -250px -31px; }
-        .jssora22r.jssora22rdn { background-position: -310px -31px; }
-        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
-        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+        .jssora21l { background-position: -3px -33px; }
+        .jssora21r { background-position: -63px -33px; }
+        .jssora21l:hover { background-position: -123px -33px; }
+        .jssora21r:hover { background-position: -183px -33px; }
+        .jssora21l.jssora21ldn { background-position: -243px -33px; }
+        .jssora21r.jssora21rdn { background-position: -303px -33px; }
+
+        .jssora21l.jssora21lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+        .jssora21r.jssora21rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
     </style>
-    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1500px;height:600px;overflow:hidden;visibility:hidden;">
+
+
+    <!--
+        Given a demo 'demos\full-width-slider.html'
+        Go through following steps to transform jssor slider compatible with w3c standards and pass html5 validation.
+
+        #1. Move styles inside 'head' tag
+        #2. Add alt="" for all 'img' tag
+        #3. Add 'data-' prefix for all custom attributes. e.g. u="image" -> data-u="image"
+    -->
+
+    <!-- Jssor Slider Begin -->
+    <script type="text/javascript" src="./js/jssor.slider.min.js"></script>
+    <script>
+        jssor_slider1_starter = function (containerId) {
+            var options = {
+                $FillMode: 2,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
+                $AutoPlay: 1,                                    //[Optional] Auto play or not, to enable slideshow, this option must be set to greater than 0. Default value is 0. 0: no auto play, 1: continuously, 2: stop at last slide, 4: stop on click, 8: stop on user navigation (by arrow/bullet/thumbnail/drag/arrow key navigation)
+                $Idle: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideEasing: $Jease$.$OutQuint,          //[Optional] Specifies easing for right to left animation, default value is $Jease$.$OutQuad
+                $SlideDuration: 1200,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $Cols: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
+                
+                $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Rows: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 8,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 8,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1                                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                },
+
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$(containerId, options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
+                else
+                    $Jssor$.$Delay(ScaleSlider, 30);
+            }
+
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            //responsive code end
+        };
+    </script>
+
+    
+    <div id="slider1_container" style="position: relative; margin: 0 auto;
+        top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
         <!-- Loading Screen -->
-        <div data-u="loading" class="jssorl-oval" style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,0.7);">
-            <img style="margin-top:-19.0px;position:relative;top:50%;width:38px;height:38px;" src="../img/loading/static-svg/oval.svg" />
-        </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1500px;height:600px;overflow:hidden;">
-        <!--Slide 1-->
+       
+        <!-- Slides Container -->
+        <div data-u="slides" style="position: absolute; left: 0px; top: 0px; width: 1300px;
+            height: 500px; overflow: hidden;">
+              <!--Slide 1-->
             <div>
                 <img data-u="image" src="./img/white-home-slide1.jpg" />
 
@@ -326,7 +384,7 @@
 		
 			<h4 style="z-index: 5; white-space: nowrap; font-weight: 400; color: rgba(51, 51, 51, 1.00);text-transform:uppercase;letter-spacing:3px;">Taste and Comfort </h4>
 				<h2 style="z-index: 6; white-space: nowrap; font-size: 85px; line-height: 90px; font-weight: 700; color: rgba(51, 51, 51, 1.00);font-family:Playfair Display;border-width:0px;">Soft and Crunchy </h2>
-   				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br><br>incidition ullamco laboris nisi ut aliquip ex ea commodo condorico. </h4>
+   				<h5 style=" color:#f8f8f8;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br><br>incidition ullamco laboris nisi ut aliquip ex ea commodo condorico. </h5>
                   <button class="btn view">VIEW OUR MENU</button>
                </div>
             </div>
@@ -356,20 +414,43 @@
            	.menutrong{
            		text-align: center;
            		width: 100%;
-           		padding-top: 300px;
+           		padding-top: 200px;
+           	
+   
            	}
+           	h5{
+           		color: black;
+           	}
+           	 
            </style>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-            <!-- bullet navigator item prototype -->
-            <div data-u="prototype" style="width:16px;height:16px;"></div>
         </div>
-        <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+                
+        <!--#region Bullet Navigator Skin Begin -->
+        <!-- bullet navigator container -->
+        <div data-u="navigator" class="jssorb21">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype"></div>
+        </div>
+        <!--#endregion Bullet Navigator Skin End -->
+
+        <!--#region Arrow Navigator Skin Begin -->
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+
     </div>
-    <script type="text/javascript">jssor_1_slider_init();</script>
-    <!-- #endregion Jssor Slider End -->
+    <!-- Trigger -->
+    <script>
+        jssor_slider1_starter('slider1_container');
+    </script>
+    <!-- Jssor Slider End -->
+    </div>
+
+	</div>
 	</div>
 	</div>
 
@@ -423,7 +504,186 @@
     <!----#mohule 10---->
 
     <!-- #region Jssor Slider Begin -->
-   <?php  include_once'module-10/index.php';?>
+ <!-- #region Jssor Slider Begin -->
+ <div class="module-10">
+
+
+ <!-- #region Jssor Slider Begin -->
+    <script src="./js/jssor.slider.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function () {
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+    <style>
+        /* jssor slider loading skin oval css */
+
+        .jssorl-oval img {
+            animation-name: jssorl-oval;
+            animation-duration: 1.2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-oval {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('./img/b21.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        .jssora22l.jssora22lds      (disabled)
+        .jssora22r.jssora22rds      (disabled)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1500px;height:400px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        
+        <div data-u="slides" style="  cursor:default;position:relative;top:0px;left:0px;width:1500px;height:600px;overflow:hidden;">
+            <div>
+               <div class="hinh">
+                <img data-u="image" src="./img/hinh1.png"/>
+
+                <h4>The essential elements of giving are power and love activity and affection and the <br><br>consciousness of the race testifies that in the high and appropriate exercise of these  <br><br>is a blessedness greater than any other.</h4> <br><br>
+
+                <h5>Mark Hopkins</h5>
+                </div>
+               
+            </div>
+             <div>
+                <div class="hinh">
+                <img data-u="image" src="./img/hinh2.png"/><br><br><br>
+
+                <h4>Desire is the key to motivation, but it's determination and commitment to an<br><br>
+                 unrelenting pursuit of your goal a commitment to excellence that will enable you to <br><br>attain the success you seek.</h4> <br><br>
+                 <h5>Mario Andretti</h5>
+                </div>
+               
+            </div>
+              <div>
+                <div class="hinh">
+                <img data-u="image" src="./img/hinh3.png"/>
+                <h4>Success is not a destination, but the road that you're on. Being successful means  <br><br>that you're working hard and walking your walk every day. You can only live your  <br><br>dream by working hard towards it. That's living your dream.</h4> <br><br>
+                <h5>Ema Wayans</h5>
+                </div>
+               
+            </div>
+
+        </div>
+        <style type="text/css"> 
+        .hinh{
+                text-align:center;
+                }
+        #jssor_1{
+            background: url(./img/hinhchinh.jpg);
+            background-size: cover;
+        }
+        h4{
+            color:#fff;
+        }
+         h5{
+            color:#fff;
+        }
+     
+        </style>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    <!-- #endregion Jssor Slider End -->
+   
+   </div>
+    <!-- #endregion Jssor Slider End -->
 
 
    <div class="module12">

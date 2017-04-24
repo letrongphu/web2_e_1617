@@ -5,6 +5,9 @@
   position: relative;
   margin: auto;
 }
+.module1 .container-fuild {
+  width: 100%;
+}
 .module1 .menutrong {
   position: absolute;
   text-align: center;
@@ -192,19 +195,6 @@
   color: #989898;
   font-weight: 400;
   display: block;
-}
-.modul3 .hinh {
-  text-align: center;
-}
-.modul3 #jssor_1 {
-  background: url(./images/hinhchinh.jpg);
-  background-size: cover;
-}
-.modul3 h4 {
-  color: #fff;
-}
-.modul3 h5 {
-  color: #fff;
 }
 .module12 .btn-text:hover {
   background-color: black;
