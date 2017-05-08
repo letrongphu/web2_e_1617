@@ -1,0 +1,669 @@
+.modem-1 figure.effect-bubba:hover img {
+  transform: scale(1.1);
+}
+.modem-1 figure.effect-bubba img {
+  margin: 0 !important;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -ms-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+.modem-1 figure.effect-bubba img {
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+.modem-1 .grid figure img {
+  position: relative;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+.modul3 .hinh {
+  text-align: center;
+}
+.modul3 #jssor_1 {
+  background: url(./images/hinhchinh.jpg);
+  background-size: cover;
+}
+.modul3 h4 {
+  color: #fff;
+}
+.modul3 h5 {
+  color: #fff;
+}
+.modul5 h5 {
+  color: #8f8f8f;
+}
+.modul5 h2 {
+  text-align: center;
+  color: black;
+}
+.modul5 h4 {
+  text-align: center;
+}
+.modul5 .img {
+  width: 167px;
+  padding-right: 11px;
+}
+.modul5 button.supmit {
+  text-align: center;
+}
+.modul5 div {
+  display: block;
+}
+.modul5 .container {
+  text-align: center;
+}
+.modul5 body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #989898;
+  font-weight: 400;
+  overflow-x: hidden !important;
+  -webkit-font-smoothing: antialiased;
+}
+.modul5 .eltd-rf-field-holder input[type=text] {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul5 .eltd-rf-holder {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul5 .eltd-rf-field-holder select {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul5 .modul51 {
+  color: #8f8f8f;
+}
+.modul5 .eltd-btn {
+  position: relative;
+  top: 2px;
+  outline: -webkit-focus-ring-color auto 5px;
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 5px;
+}
+.modul5 button.eltd-btn,
+.modul5 input[type=submit].eltd-btn {
+  cursor: pointer;
+}
+.modul5 .eltd-btn {
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 16px 36px 20px;
+  font-size: 11px;
+  line-height: 14px;
+  overflow: hidden;
+  -webkit-transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  -moz-transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul5 input,
+.modul5 textarea,
+.modul5 keygen,
+.modul5 select,
+.modul5 button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em 0em 0em 0em;
+  font: 13.3333px Arial;
+}
+.modul5 Inherited from div.eltd-rf-btn-holder
+.eltd-rf-holder .eltd-rf-btn-holder {
+  text-align: center;
+  margin-top: 36px;
+}
+.modul5 .eltd-content-aligment-center {
+  text-align: center;
+}
+.modul5 .row.t {
+  background-color: black;
+  color: #fff;
+}
+.modul5 .modul5 .row.r {
+  color: #8f8f8f;
+}
+.modul5 .row.r {
+  height: 20px;
+  font-size: 13px;
+  color: #8f8f8f;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  background: black;
+  color: #fff;
+}
+.modu17 h5 {
+  color: #8f8f8f;
+}
+.modu17 h2 {
+  text-align: center;
+  color: black;
+}
+.modu17 h4 {
+  text-align: center;
+}
+.modu17 button.supmit {
+  text-align: center;
+}
+.modu17 div {
+  display: block;
+}
+.modu17 .container {
+  text-align: center;
+}
+.modu17 body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #989898;
+  font-weight: 400;
+  overflow-x: hidden !important;
+  -webkit-font-smoothing: antialiased;
+}
+.modu17 .eltd-rf-field-holder input[type=text] {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modu17 .eltd-rf-holder {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modu17 .eltd-rf-field-holder select {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modu17 .modul51 {
+  color: #8f8f8f;
+}
+.modu17 .eltd-btn {
+  position: relative;
+  top: 2px;
+  outline: -webkit-focus-ring-color auto 5px;
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 5px;
+}
+.modu17 button.eltd-btn,
+.modu17 input[type=submit].eltd-btn {
+  cursor: pointer;
+}
+.modu17 .eltd-btn {
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 16px 36px 20px;
+  font-size: 11px;
+  line-height: 14px;
+  overflow: hidden;
+  -webkit-transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  -moz-transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modu17 input,
+.modu17 textarea,
+.modu17 keygen,
+.modu17 select,
+.modu17 button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em 0em 0em 0em;
+  font: 13.3333px Arial;
+}
+.modu17 Inherited from div.eltd-rf-btn-holder
+.eltd-rf-holder .eltd-rf-btn-holder {
+  text-align: center;
+  margin-top: 36px;
+}
+.modu17 .eltd-content-aligment-center {
+  text-align: center;
+}
+.modu17 .row.t {
+  background-color: black;
+  color: #fff;
+}
+.modu17 .modul5 .row.r {
+  color: #8f8f8f;
+}
+.modu17 .row.r {
+  height: 20px;
+  font-size: 13px;
+  color: #8f8f8f;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  background: black;
+  color: #fff;
+}
+.modul8 h5 {
+  color: #8f8f8f;
+}
+.modul8 h2 {
+  text-align: center;
+  color: black;
+}
+.modul8 h4 {
+  text-align: center;
+}
+.modul8 button.supmit {
+  text-align: center;
+}
+.modul8 div {
+  display: block;
+}
+.modul8 .container {
+  text-align: center;
+}
+.modul8 body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #989898;
+  font-weight: 400;
+  overflow-x: hidden !important;
+  -webkit-font-smoothing: antialiased;
+}
+.modul8 .eltd-rf-field-holder input[type=text] {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul8 .eltd-rf-holder {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul8 .eltd-rf-field-holder select {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul8 .modul51 {
+  color: #8f8f8f;
+}
+.modul8 .eltd-btn {
+  position: relative;
+  top: 2px;
+  outline: -webkit-focus-ring-color auto 5px;
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 5px;
+}
+.modul8 button.eltd-btn,
+.modul8 input[type=submit].eltd-btn {
+  cursor: pointer;
+}
+.modul8 .eltd-btn {
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 16px 36px 20px;
+  font-size: 11px;
+  line-height: 14px;
+  overflow: hidden;
+  -webkit-transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  -moz-transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul8 input,
+.modul8 textarea,
+.modul8 keygen,
+.modul8 select,
+.modul8 button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em 0em 0em 0em;
+  font: 13.3333px Arial;
+}
+.modul8 Inherited from div.eltd-rf-btn-holder
+.eltd-rf-holder .eltd-rf-btn-holder {
+  text-align: center;
+  margin-top: 36px;
+}
+.modul8 .eltd-content-aligment-center {
+  text-align: center;
+}
+.modul8 .row.t {
+  background-color: black;
+  color: #fff;
+}
+.modul8 .modul5 .row.r {
+  color: #8f8f8f;
+}
+.modul8 .row.r {
+  height: 20px;
+  font-size: 13px;
+  color: #8f8f8f;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  background: black;
+  color: #fff;
+}
+.modul9 h5 {
+  color: #8f8f8f;
+}
+.modul9 h2 {
+  text-align: center;
+  color: black;
+}
+.modul9 h4 {
+  text-align: center;
+}
+.modul9 button.supmit {
+  text-align: center;
+}
+.modul9 div {
+  display: block;
+}
+.modul9 .container-fuild {
+  text-align: center;
+}
+.modul9 body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #989898;
+  font-weight: 400;
+  overflow-x: hidden !important;
+  -webkit-font-smoothing: antialiased;
+}
+.modul9 .eltd-rf-field-holder input[type=text] {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul9 .eltd-rf-holder {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul9 .eltd-rf-field-holder select {
+  padding-left: 20px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #909090;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border: 2px solid #ebebeb;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul9 .modul51 {
+  color: #8f8f8f;
+}
+.modul9 .eltd-btn {
+  position: relative;
+  top: 2px;
+  outline: -webkit-focus-ring-color auto 5px;
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 5px;
+}
+.modul9 button.eltd-btn,
+.modul9 input[type=submit].eltd-btn {
+  cursor: pointer;
+}
+.modul9 .eltd-btn {
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 16px 36px 20px;
+  font-size: 11px;
+  line-height: 14px;
+  overflow: hidden;
+  -webkit-transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  -moz-transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  transition: color .15s ease-out, background-color .15s ease-out, border-color .15s ease-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modul9 input,
+.modul9 textarea,
+.modul9 keygen,
+.modul9 select,
+.modul9 button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em 0em 0em 0em;
+  font: 13.3333px Arial;
+}
+.modul9 Inherited from div.eltd-rf-btn-holder
+.eltd-rf-holder .eltd-rf-btn-holder {
+  text-align: center;
+  margin-top: 36px;
+}
+.modul9 .eltd-content-aligment-center {
+  text-align: center;
+}
+.modul9 .row.t {
+  background-color: black;
+  color: #fff;
+}
+.modul9 .modul5 .row.r {
+  color: #8f8f8f;
+}
+.modul9 .row.r {
+  height: 20px;
+  font-size: 13px;
+  color: #8f8f8f;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  background: black;
+  color: #fff;
+}
+
+

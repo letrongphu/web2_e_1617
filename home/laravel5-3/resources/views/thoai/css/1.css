@@ -1,0 +1,22 @@
+.modem-1 figure.effect-bubba:hover img {
+  transform: scale(1.1);
+}
+.modem-1 figure.effect-bubba img {
+  margin: 0 !important;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -ms-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+.modem-1 figure.effect-bubba img {
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+.modem-1 .grid figure img {
+  position: relative;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
