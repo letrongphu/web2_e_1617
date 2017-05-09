@@ -665,5 +665,189 @@
   background: black;
   color: #fff;
 }
+.module7 h5 {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+.module7 h2 {
+  text-align: center;
+  font-size: 52px;
+  font-family: "Playfair Display", serif;
+  line-height: 1.3em;
+  font-weight: 700;
+}
+.module7 h4 {
+  text-align: center;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #555;
+  font-family: "Open Sans", sans-serif;
+}
+.module8 img {
+  width: 347px;
+  height: 347px;
+  margin-left: 60px;
+  margin-right: 40px;
+}
+.module9 p {
+  padding: 40px 0px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #989898;
+  font-weight: 400;
+  display: block;
+}
+.module12 .btn-text:hover {
+  background-color: black;
+  color: white;
+  transition: all .25s ease-in-out;
+  text-transform: uppercase;
+}
+.module12 img {
+  width: 50%;
+  width: 552px;
+  height: 522px;
+}
+.module12 h5 {
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+.module12 h2 {
+  font-size: 38px;
+  line-height: 1.3em;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+}
+.module12 h4 {
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #555;
+  font-family: "Open Sans", sans-serif;
+  margin: 15px 0;
+  text-align: left;
+}
+.module12 .btn-text {
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 16px 36px 20px;
+  font-size: 11px;
+  line-height: 14px;
+  background-color: #f1f1f1;
+  border: 2px solid #f1f1f1;
+  overflow: visible;
+  letter-spacing: 1.5px;
+}
+.module13 .btn-text:hover {
+  background-color: black;
+  color: white;
+  transition: all .25s ease-in-out;
+  text-transform: uppercase;
+}
+.module13 img {
+  width: 50%;
+  width: 552px;
+  height: 522px;
+}
+.module13 h5 {
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  text-align: right;
+}
+.module13 h2 {
+  font-size: 38px;
+  line-height: 1.3em;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  text-align: right;
+}
+.module13 h4 {
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #555;
+  font-family: "Open Sans", sans-serif;
+  margin: 15px 0;
+  text-align: right;
+}
+.module13 .btn-text {
+  text-align: right;
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 16px 36px 20px;
+  font-size: 11px;
+  line-height: 14px;
+  background-color: #f1f1f1;
+  border: 2px solid #f1f1f1;
+  overflow: visible;
+  letter-spacing: 1.5px;
+  margin: 0px 200px;
+}
+.module14 .btn-text:hover {
+  background-color: black;
+  color: white;
+  transition: all .25s ease-in-out;
+  text-transform: uppercase;
+}
+.module14 img {
+  width: 50%;
+  width: 552px;
+  height: 522px;
+}
+.module14 h5 {
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+.module14 h2 {
+  font-size: 38px;
+  line-height: 1.3em;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+}
+.module14 h4 {
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #555;
+  font-family: "Open Sans", sans-serif;
+  margin: 15px 0;
+  text-align: left;
+}
+.module14 .btn-text {
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 16px 36px 20px;
+  font-size: 11px;
+  line-height: 14px;
+  background-color: #f1f1f1;
+  border: 2px solid #f1f1f1;
+  overflow: visible;
+  letter-spacing: 1.5px;
+}
+
 
 

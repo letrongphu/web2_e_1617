@@ -42,3 +42,51 @@ Route::get('/module-19',[
     'as' => 'name',
     'uses' => 'module_19_Controller@index'
 ]);
+Route::get('/module-1',[
+    'as' => 'name',
+    'uses' => 'module_1_Controller@index'
+]);
+Route::get('/module-7',[
+    'as' => 'name',
+    'uses' => 'module_7_Controller@index'
+]);
+Route::get('/module-2',[
+    'as' => 'name',
+    'uses' => 'module_2_Controller@index'
+]);
+Route::get('/module-3',[
+    'as' => 'name',
+    'uses' => 'module_3_Controller@index'
+]);
+Route::get('/module-4',[
+    'as' => 'name',
+    'uses' => 'module_4_Controller@index'
+]);
+Route::get('/module-5',[
+    'as' => 'name',
+    'uses' => 'module_5_Controller@index'
+]);
+Route::get('/module-6',[
+    'as' => 'name',
+    'uses' => 'module_6_Controller@index'
+]);
+Route::get('/module-13',[
+    'as' => 'name',
+    'uses' => 'module_13_Controller@index'
+]);
+Route::get('/module-8',[
+    'as' => 'name',
+    'uses' => 'module_8_Controller@index'
+]);
+Route::get('/module-9',[
+    'as' => 'name',
+    'uses' => 'module_9_Controller@index'
+]);
+Route::get('/module-12',[
+    'as' => 'name',
+    'uses' => 'module_12_Controller@index'
+]);
+Route::get('/module-14',[
+    'as' => 'name',
+    'uses' => 'module_14_Controller@index'
+]);
